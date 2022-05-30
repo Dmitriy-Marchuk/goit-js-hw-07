@@ -43,7 +43,7 @@ function openModal(currentEl) {
   modal = basicLightbox.create(
     `
     <div class="modal">
-    <img width="1100" height="700" src="${currentEl.dataset.source}">
+    <img width="1000"  src="${currentEl.dataset.source}">
     </div>
     `);
 
